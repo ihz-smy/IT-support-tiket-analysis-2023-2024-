@@ -1,4 +1,4 @@
-# IT support ticket analysis (2023 - 2024)
+# IT support tickets analysis (2023 - 2024)
 
 ## Project Background and Overview
 This analysis examines the incident management event log over a 1 year period, including the case id, timestsmp, event, reporter, resolver, priority, issue type, report channel and customer satisfaction.
@@ -114,9 +114,9 @@ Each record in the 'feedback table' represents a unque Case ID and whether that 
 
 
 ## Executive Summary
-In the span of 1 year, 31K+ tickets were submitted, involving 242k+ events with an average satisfaction of 3.23. The number of tickets submitted remained steady over the period, at 2.6K+ cases per month. The most common Issue Type is Performance Issue and Bug at 8K+ and 6K+ cases. Bug is the Issue type that the customers were least satisfied about at the score of 2.8 while others were at 3.3+. Issues were mostly reported through website and email at 16K+ and 12K+ cases. There may be an imbalance in the workload as Emily reported 9K+ cases while others were only at 6K+. The same applied to the Resolver team, some handled 14K-28K+ events while others handled 1-2K+. Furthermore, those that handled the least events also got the least satisfaction score 2.3+ while the main team got 3.1-3.3. 
+In the span of 1 year, 31K+ tickets were submitted, involving 242k+ events with an average satisfaction of 3.23. The number of tickets submitted remained steady over the period, at 2.6K+ cases per month. The most common Issue Type is Performance Issue and Bug at 8K+ and 6K+ cases. Bug is the Issue type that the customers were least satisfied about at the score of 2.8 while others were at 3.3+. There may be an imbalance in the workload as Emily reported 9K+ cases while others were only at 6K+. The same applied to the Resolver team, some handled 14K-28K+ events while others handled 1-2K+. Furthermore, those that handled the least events also got the least satisfaction score 2.3+ while the main team got 3.1-3.3. 
 
-The average duration for each case is about 150 hours, with the average error rate 6.53%. On average, leve1 support, level 2 support and assigning created tickets took the longest time, at about 40 hours for each event. Bug was the issue ype that took the longest to solve, 160 hours
+The average duration for each case is about 150 hours, with the average error rate 6.53%. Bug was the issue ype that took the longest to solve, 160 hours
 
 The issue type that generated the most errors is bug at 9K+ erros while others were at most 2K, consistantly at 700-800+ errors generated a month. Emily was the reporter that had the highest error rate at 7.1%+ while others were at 6.7%. James, Olivia, Ava, William had the highest error rate in the Resolvers team at 33-36%, the rest were at most 11%. Note that they also took the shortest amount of time for each case (11-18 hours), which may answers why their error rate was so high. 
 
@@ -165,6 +165,9 @@ The customer satisfaction score remained steady over the period, ranging at 3.21
 
 - Imbalanced workload (Emily: 9K+ cases vs. others: ~6K)
   + Redistribute Workload: Use ticket assignment algorithms to balance load across reporters and resolvers. Avoid overloading top performers like Emily
+
+- Long resolution time for assigning tickets (40 hours):
+	+ Put a time KPI for assigning the ticket after it has been created to shorten the resolution process
 
 
 
